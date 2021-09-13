@@ -1,0 +1,38 @@
+.fa-twitter{
+    color: tomato;
+}
+.fa-youtube{
+    color:tomato
+    
+}
+.fa-github{
+    color: tomato
+}
+body{
+    background-image:url(chillasf.gif);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bob{
+    color: white;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-110%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.player {
+    width: 30px;
+    height: 30px;
+ }

@@ -1,0 +1,51 @@
+<!DOCTYPE html> 
+
+<html>
+<head>
+        <title>Zex Website</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://kit.fontawesome.com/17da559a45.js" crossorigin="anonymous"></script>
+        <script>
+            function togglePlay() {
+            var audio = document.getElementsByTagName("audio")[0];
+             
+            if (audio) {
+              if (audio.paused) { 
+                  audio.play();
+                 document.getElementById("button").src = "volume-up-solid.svg";
+              } else {
+                  audio.pause();
+                  document.getElementById("button").src ="volume-up-solid.svg";
+              }
+            }
+          }
+          </script>
+    
+
+</head>
+<body>
+    <div class="player">
+        <img id ="button" onclick="togglePlay()" src ="volume-up-solid.svg">
+          <audio>
+              <source src="song.mp3" />
+          </audio>
+      </div>
+    <div class="container">
+    <a href="https://twitter.com/semanityy">
+    <i class="fab fa-twitter fa-3x"></i>
+    </a>
+    <a href="https://www.youtube.com/channel/UCaMOw0q18gUbw2OAIfv4qMQ">
+        <i class="fab fa-youtube fa-3x"></i>
+    </a>
+    
+<a href="https://github.com/ZexFR">
+    <i class="fab fa-github fa-3x"></i>
+</a>
+</div>
+<div class="bob">
+    <b><h1>Semanity</h1></b>
+</div>
+
+
+</body>
+</html>
